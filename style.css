@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif; /* Sayfanın yazı şekli */
+}
+
+.navbar a {
+  text-decoration: none; /* Alt çizgiyi kaldır */
+  font-size: 18px;
+  margin: 15px; /* Her bir linkin sağ ve soluna boşluk ekle */
+  padding: 10px 20px; /* İç boşluk ekle */
+  background-color: lightgray;
+  border-radius: 5px; /* Köşeleri yuvarlat */
+}
+
+/* navbar ve satın alma link rengi */
+.navbar a:link,
+.comments a:link {
+  color: rgb(59, 163, 215);
+}
+.navbar a:visited,
+.comments a:visited {
+  color: rgb(111, 78, 196);
+}
+.navbar a:hover,
+.comments a:hover {
+  color: rgb(224, 14, 199);
+}
+
+/* Başlık düzenlemeleri */
+h2 {
+  font-size: 36px;
+}
+h3,
+h4 {
+  font-size: 25px;
+  color: blueviolet;
+  margin-bottom: 5px;
+}
+
+/* Yorumlarla ve satın al link ilgili düzenlemeler */
+.comments a {
+  text-decoration: none;
+  color: chartreuse;
+}
+.comments ul {
+  list-style-type: none; /*listeleme şekli */
+  padding: 0px;
+  margin: 15px;
+}
+.comments li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* pseudo */
+section a:nth-child(3) {
+  font-size: 25px;
+  padding: 5px;
+  margin: 0px;
+}
+section p:nth-child(2) {
+  font-size: 32px;
+  color: purple;
+}
+
+/* link düzenlemeleri */
+a:link {
+  color: green;
+}
+a:visited {
+  color: salmon;
+}
+a:hover {
+  color: aqua;
+}
+a:active,
+.navbar a:active,
+.comments a:active {
+  color: yellow;
+}
+
+.souls {
+  list-style-type: circle;
+  font-size: 20px;
+  color: rgb(163, 27, 99);
+}
